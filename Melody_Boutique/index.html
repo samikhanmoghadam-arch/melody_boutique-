@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf3f7">
+  <meta name="description" content="Melody Boutique — Women's fashion, new collections and timeless style.">
+  <title>Melody Boutique | Women's Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- آیکون‌ها: مرورگر، گوشی (iOS/Android)، ویندوز و اشتراک‌گذاری لینک -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="msapplication-TileColor" content="#f2ede9">
+  <meta name="msapplication-config" content="browserconfig.xml">
+  <meta name="apple-mobile-web-app-title" content="Melody">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Melody Boutique | Women's Fashion">
+  <meta property="og:description" content="Melody Boutique — Women's fashion, new collections and timeless style.">
+  <meta property="og:image" content="og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement" id="announcement">A LITTLE COLOR. A LOT OF STYLE. <span>MELODY BOUTIQUE</span></div>
+  <header class="site-header">
+    <button class="icon-button mobile-menu" id="mobileMenu" aria-label="باز کردن منو">☰</button>
+    <a class="brand" href="#" aria-label="Melody Boutique home">
+      <span class="brand-main">MELODY</span><span class="brand-sub">BOUTIQUE</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">خانه</a><a href="#shop">فروشگاه</a><a href="#featured">ویژه‌ها</a><a href="#collections">کالکشن‌ها</a><a href="#about">درباره ما</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchToggle" aria-label="جستجو">⌕</button>
+      <button class="icon-button" id="favoritesButton" aria-label="علاقه‌مندی‌ها">♡ <span class="count" id="favoriteCount">0</span></button>
+      <button class="icon-button bag-button" id="cartButton" aria-label="سبد خرید">♧ <span class="count" id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">THE NEW WOMEN'S EDIT · 2026</p>
+        <h1>Dress like<br><em>you mean it.</em></h1>
+        <p class="hero-text">استایل خودت را پیدا کن؛ با انتخاب‌هایی رنگی، راحت و متفاوت.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#shop">EXPLORE COLLECTION <span>↗</span></a><a class="text-link" href="#collections">مشاهده کالکشن‌ها</a></div>
+        <div class="hero-note"><span class="sparkle">✳</span><span>YOUR STYLE. YOUR STORY.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-frame hero-frame-large"><div class="image-placeholder"><img class="bg-img" src="images/hero-1.jpg" alt="" onerror="this.remove()"><span>HERO IMAGE</span><small>فایل: images/hero-1.jpg</small></div></div>
+        <div class="hero-frame hero-frame-small"><div class="image-placeholder"><img class="bg-img" src="images/hero-2.jpg" alt="" onerror="this.remove()"><span>EDITORIAL IMAGE</span><small>فایل: images/hero-2.jpg</small></div></div>
+        <div class="hero-sticker">NEW<br>SEASON</div>
+        <div class="hero-orbit"></div>
+      </div>
+      <div class="hero-side-label">FASHION · FEELING · FREEDOM</div>
+    </section>
+
+    <section class="ticker"><div>NEW SEASON <b>✳</b> NEW MOOD <b>✳</b> YOUR EVERYDAY ICONS <b>✳</b> MELODY BOUTIQUE <b>✳</b> NEW SEASON <b>✳</b></div></section>
+
+    <section class="section categories-section" id="collections">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR MOOD</p><h2>Shop by <em>category</em></h2></div><p>برای هر روز، برای هر حال‌وهوا.</p></div>
+      <div class="category-grid">
+        <button class="category-card cat-pink" data-category="tops"><div class="category-image image-placeholder"><img class="bg-img" src="images/cat-tops.jpg" alt="" onerror="this.remove()"><span>TOPS IMAGE</span><small>فایل: images/cat-tops.jpg</small></div><span class="category-index">01 / TOPS</span><strong>تاپ و شومیز</strong><span class="category-arrow">↗</span></button>
+        <button class="category-card cat-lilac" data-category="dresses"><div class="category-image image-placeholder"><img class="bg-img" src="images/cat-dresses.jpg" alt="" onerror="this.remove()"><span>DRESSES IMAGE</span><small>فایل: images/cat-dresses.jpg</small></div><span class="category-index">02 / DRESSES</span><strong>پیراهن و لباس</strong><span class="category-arrow">↗</span></button>
+        <button class="category-card cat-orange" data-category="outerwear"><div class="category-image image-placeholder"><img class="bg-img" src="images/cat-outerwear.jpg" alt="" onerror="this.remove()"><span>OUTERWEAR IMAGE</span><small>فایل: images/cat-outerwear.jpg</small></div><span class="category-index">03 / OUTERWEAR</span><strong>مانتو و کت</strong><span class="category-arrow">↗</span></button>
+        <button class="category-card cat-blue" data-category="bags,accessories"><div class="category-image image-placeholder"><img class="bg-img" src="images/cat-accessories.jpg" alt="" onerror="this.remove()"><span>ACCESSORIES IMAGE</span><small>فایل: images/cat-accessories.jpg</small></div><span class="category-index">04 / ACCESSORIES</span><strong>کیف و اکسسوری</strong><span class="category-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="featured" hidden>
+      <div class="section-heading"><div><p class="eyebrow">HANDPICKED FOR YOU</p><h2>Featured <em>picks</em></h2></div><p>محصولات ویژه‌ی Melody؛ انتخاب‌های خاص این فصل.</p></div>
+      <div class="product-grid" id="featuredGrid"></div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">CURATED FOR YOU</p><h2>Our <em>collection</em></h2></div><div class="shop-controls"><label class="search-box" id="searchBox"><span>⌕</span><input id="searchInput" type="search" placeholder="جست‌وجو: نام، رنگ، دسته..." aria-label="جستجوی محصول"></label><select id="sortSelect" aria-label="مرتب‌سازی"><option value="featured">پیشنهادی</option><option value="price-asc">ارزان‌ترین</option><option value="price-desc">گران‌ترین</option><option value="newest">جدیدترین</option></select></div></div>
+      <div class="filter-row"><button class="filter-chip active" data-filter="all">همه</button><button class="filter-chip" data-filter="tops">تاپ و شومیز</button><button class="filter-chip" data-filter="dresses">پیراهن</button><button class="filter-chip" data-filter="outerwear">مانتو و کت</button><button class="filter-chip" data-filter="bottoms">شلوار و دامن</button><button class="filter-chip" data-filter="bags">کیف</button><button class="filter-chip" data-filter="accessories">اکسسوری</button></div>
+      <p class="result-count" id="resultCount"></p>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>محصولی پیدا نشد. عبارت جست‌وجو یا فیلتر را تغییر بده.</p>
+    </section>
+
+    <section class="promo-banner">
+      <div class="promo-shape"></div><div class="promo-content"><p class="eyebrow">A LITTLE TREAT FOR YOU</p><h2>Good style.<br><em>Better surprises.</em></h2><p>کد تخفیف خودت را در سبد خرید وارد کن.</p><a href="#shop" class="button button-light">SHOP THE EDIT ↗</a></div>
+      <div class="promo-image image-placeholder"><img class="bg-img" src="images/promo.jpg" alt="" onerror="this.remove()"><span>CAMPAIGN IMAGE</span><small>فایل: images/promo.jpg</small></div>
+    </section>
+
+    <section class="section about-section" id="about"><div class="about-mark">M.</div><div><p class="eyebrow">A NOTE FROM MELODY</p><h2>Style is a way<br>to <em>say hello.</em></h2><p>ملودی بوتیک برای انتخاب‌هایی ساخته شده که حس خوب، اعتمادبه‌نفس و سلیقه شخصی تو را نشان می‌دهند. اینجا هر محصول با جزئیات و ویژگی‌های خودش معرفی می‌شود.</p></div><div class="about-side">MADE FOR<br>YOUR MOMENTS</div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-main">MELODY</span><span class="brand-sub">BOUTIQUE</span><p>YOUR STYLE. YOUR STORY.</p></div><div class="footer-links"><a href="#shop">فروشگاه</a><a href="#featured">محصولات ویژه</a><a href="#collections">کالکشن‌ها</a><a href="#about">درباره ما</a></div><div class="footer-social"><p>LET'S CONNECT</p><a id="footerTelegram" href="https://t.me/samae_gh" target="_blank" rel="noopener">Telegram ↗</a><a id="footerInstagram" href="https://www.instagram.com/melody_boutique_n/" target="_blank" rel="noopener">Instagram ↗</a></div><small>© <span id="year"></span> MELODY BOUTIQUE. ALL RIGHTS RESERVED.</small></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cartDrawer" aria-label="سبد خرید"><div class="drawer-head"><div><p class="eyebrow">YOUR SELECTION</p><h3>سبد خرید</h3></div><button class="close-button" data-close>×</button></div><div id="cartItems" class="drawer-content"></div><div class="coupon-area"><label for="couponInput">کد تخفیف</label><div class="coupon-entry"><input id="couponInput" placeholder="مثلاً MELODY25"><button id="applyCoupon">اعمال</button></div><p id="couponMessage" class="helper-text">کد تخفیف را وارد کن.</p></div><div class="totals"><div><span>جمع محصولات</span><strong id="subtotal">۰ تومان</strong></div><div><span>تخفیف محصولات</span><strong id="saleTotal">۰ تومان</strong></div><div><span>کد تخفیف</span><strong id="couponTotal">۰ تومان</strong></div><div class="grand-total"><span>مبلغ نهایی</span><strong id="grandTotal">۰ تومان</strong></div></div><button class="button button-dark checkout-button" id="telegramOrder">ارسال سفارش در تلگرام ↗</button><a class="instagram-order" id="instagramOrder" target="_blank" rel="noopener">مشاهده پیج اینستاگرام ↗</a><p class="drawer-footnote">ثبت سفارش از طریق پیام انجام می‌شود؛ پرداخت آنلاین در این نسخه فعال نیست.</p></aside>
+
+  <aside class="drawer favorites-drawer" id="favoritesDrawer"><div class="drawer-head"><div><p class="eyebrow">SAVED WITH LOVE</p><h3>علاقه‌مندی‌ها</h3></div><button class="close-button" data-close>×</button></div><div id="favoriteItems" class="drawer-content"></div></aside>
+
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-label="جزئیات محصول"><button class="close-button modal-close" data-close>×</button><div id="productDetail"></div></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="store-config.js"></script><script src="products.js"></script><script src="app.js"></script>
+</body>
+</html>
