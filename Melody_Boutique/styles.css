@@ -16,3 +16,8 @@
 .thumb.selected{border-color:#bd6790}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
 @media(max-width:650px){.detail-thumbs>.thumb{height:75px}.search-box{flex:1}.search-box input{width:100%}.shop-controls{flex-wrap:wrap}}
+
+/* ---- موبایل: حذف استیکرهای تزئینی، محصولات بدون تغییر ---- */
+@media(max-width:650px){
+  .hero-sticker,.hero-orbit,.sparkle,.ticker b,.hero-side-label{display:none!important}
+}
